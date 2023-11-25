@@ -61,7 +61,7 @@ To get started with the Question Paper Generator, follow these steps:
 
 ### Generate Question Paper
 
-- *GET* `/api/v1/QuestionRoutes/generateQuestionPaper`
+- *POST* `/api/v1/QuestionRoutes/generateQuestionPaper`
 
   This route is used to generate a question paper. The generated paper will follow the specified mark distribution based on difficulty levels.
 
